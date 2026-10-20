@@ -26,7 +26,7 @@ function FormularioPedido({ items, onCerrar, onEnviado }) {
     return nuevos
   }
   function enviar(evento) {
-    evento.preventDefault()
+    evento.preventDefault() // evita que el navegador recargue la página
     const nuevos = validar()
     setErrores(nuevos)
     if (Object.keys(nuevos).length > 0) return
