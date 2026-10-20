@@ -1,5 +1,5 @@
 import { pesos } from '../utils/formato.js'
-function Carrito({ items, onCerrar, onCambiarCantidad, onQuitar }) {
+function Carrito({ items, onCerrar, onCambiarCantidad, onQuitar, onPedir }) {
   const total = items.reduce((suma, item) => suma + item.precio * item.cantidad, 0)
   return (
     <div className="fixed inset-0 z-40 flex justify-end bg-black/50" onClick={onCerrar}>
@@ -62,6 +62,14 @@ function Carrito({ items, onCerrar, onCambiarCantidad, onQuitar }) {
             <span>Total</span>
             <span>{pesos(total)}</span>
           </div>
+          <button
+            disabled={items.length === 0}
+            onClick={onPedir}
+            className="mt-4 w-full rounded-full bg-marca-500 py-3 font-semibold text-white
+              hover:bg-marca-600 disabled:bg-stone-300"
+          >
+            Hacer pedido
+          </button>
         </div>
       </aside>
     </div>
