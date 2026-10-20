@@ -1,0 +1,175 @@
+[
+  {
+    "id": 1,
+    "nombre": "Guayabera de lino",
+    "categoria": "hombre",
+    "precio": 159000,
+    "imagen": "/img/guayabera.svg",
+    "tallas": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "nuevo": true,
+    "descripcion": "Guayabera clásica de lino con alforzas y cuatro bolsillos. Fresca y elegante para eventos de día."
+  },
+  {
+    "id": 2,
+    "nombre": "Camiseta de algodón",
+    "categoria": "hombre",
+    "precio": 45000,
+    "imagen": "/img/camiseta.svg",
+    "tallas": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "nuevo": false,
+    "descripcion": "Camiseta de algodón peinado con cuello redondo. Ideal para el día a día en la ciudad."
+  },
+  {
+    "id": 3,
+    "nombre": "Bermuda de dril",
+    "categoria": "hombre",
+    "precio": 89000,
+    "imagen": "/img/bermuda.svg",
+    "tallas": [
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "nuevo": false,
+    "descripcion": "Bermuda de dril con bolsillos laterales y bota a la altura de la rodilla."
+  },
+  {
+    "id": 4,
+    "nombre": "Pantalón de lino",
+    "categoria": "hombre",
+    "precio": 135000,
+    "imagen": "/img/pantalon-lino.svg",
+    "tallas": [
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "nuevo": false,
+    "descripcion": "Pantalón de lino con pretina elástica y cordón. Liviano y cómodo para el calor."
+  },
+  {
+    "id": 5,
+    "nombre": "Vestido floral",
+    "categoria": "mujer",
+    "precio": 149000,
+    "imagen": "/img/vestido-floral.svg",
+    "tallas": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "nuevo": true,
+    "descripcion": "Vestido largo de viscosa con estampado de flores tropicales y tiras ajustables."
+  },
+  {
+    "id": 6,
+    "nombre": "Blusa campesina",
+    "categoria": "mujer",
+    "precio": 79000,
+    "imagen": "/img/blusa-campesina.svg",
+    "tallas": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "nuevo": false,
+    "descripcion": "Blusa de hombros descubiertos con bordado artesanal en el escote."
+  },
+  {
+    "id": 7,
+    "nombre": "Falda midi plisada",
+    "categoria": "mujer",
+    "precio": 99000,
+    "imagen": "/img/falda-midi.svg",
+    "tallas": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "nuevo": false,
+    "descripcion": "Falda midi de cintura alta con pliegues. Combina con blusas y camisetas."
+  },
+  {
+    "id": 8,
+    "nombre": "Short de lino",
+    "categoria": "mujer",
+    "precio": 72000,
+    "imagen": "/img/short-lino.svg",
+    "tallas": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "nuevo": false,
+    "descripcion": "Short de lino de tiro alto con lazo en la cintura."
+  },
+  {
+    "id": 9,
+    "nombre": "Sombrero vueltiao",
+    "categoria": "accesorios",
+    "precio": 180000,
+    "imagen": "/img/sombrero-vueltiao.svg",
+    "tallas": [
+      "Única"
+    ],
+    "nuevo": true,
+    "descripcion": "Sombrero tradicional tejido en caña flecha por artesanos de Tuchín, Córdoba."
+  },
+  {
+    "id": 10,
+    "nombre": "Mochila wayuu",
+    "categoria": "accesorios",
+    "precio": 210000,
+    "imagen": "/img/mochila-wayuu.svg",
+    "tallas": [
+      "Única"
+    ],
+    "nuevo": false,
+    "descripcion": "Mochila tejida a mano por artesanas wayuu de La Guajira, con diseños geométricos únicos."
+  },
+  {
+    "id": 11,
+    "nombre": "Gafas de sol",
+    "categoria": "accesorios",
+    "precio": 65000,
+    "imagen": "/img/gafas-sol.svg",
+    "tallas": [
+      "Única"
+    ],
+    "nuevo": false,
+    "descripcion": "Gafas de sol con filtro UV400 y montura liviana."
+  },
+  {
+    "id": 12,
+    "nombre": "Sandalias de cuero",
+    "categoria": "accesorios",
+    "precio": 115000,
+    "imagen": "/img/sandalias-cuero.svg",
+    "tallas": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "nuevo": false,
+    "descripcion": "Sandalias de cuero natural hechas en Colombia, con suela antideslizante."
+  }
+]
