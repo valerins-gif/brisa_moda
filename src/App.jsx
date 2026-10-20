@@ -3,6 +3,7 @@ import Encabezado from './components/Encabezado.jsx'
 import Portada from './components/Portada.jsx'
 import Filtros from './components/Filtros.jsx'
 import ListaProductos from './components/ListaProductos.jsx'
+import DetalleProducto from './components/DetalleProducto.jsx'
 import PiePagina from './components/PiePagina.jsx'
 function App() {
   const [productos, setProductos] = useState([])
@@ -10,6 +11,7 @@ function App() {
   const [categoria, setCategoria] = useState('todas')
   const [busqueda, setBusqueda] = useState('')
   const [orden, setOrden] = useState('destacados')
+  const [seleccionado, setSeleccionado] = useState(null)
   useEffect(() => {
     fetch('/productos.json')
       .then((respuesta) => respuesta.json())
@@ -27,6 +29,10 @@ function App() {
       if (orden === 'mayor') return b.precio - a.precio
       return a.id - b.id
     })
+  function agregarAlCarrito(producto, talla) {
+    console.log('Agregar:', producto.nombre, 'talla', talla)
+    setSeleccionado(null)
+  }
   return (
     <div className="min-h-screen bg-stone-50 text-stone-800">
       <Encabezado />
@@ -41,9 +47,16 @@ function App() {
           orden={orden}
           onOrden={setOrden}
         />
-        <ListaProductos productos={visibles} cargando={cargando} />
+        <ListaProductos productos={visibles} cargando={cargando} onVerDetalle={setSeleccionado} />
       </main>
       <PiePagina />
+      {seleccionado && (
+        <DetalleProducto
+          producto={seleccionado}
+          onCerrar={() => setSeleccionado(null)}
+          onAgregar={agregarAlCarrito}
+        />
+      )}
     </div>
   )
 }
