@@ -4,7 +4,7 @@
     "nombre": "Guayabera de lino",
     "categoria": "hombre",
     "precio": 159000,
-    "imagen": "/img/guayabera.svg",
+    "imagen": "/img/guayabera.jpg",
     "tallas": [
       "S",
       "M",
@@ -19,7 +19,7 @@
     "nombre": "Camiseta de algodón",
     "categoria": "hombre",
     "precio": 45000,
-    "imagen": "/img/camiseta.svg",
+    "imagen": "/img/camisa_algodon.jpg",
     "tallas": [
       "S",
       "M",
@@ -34,7 +34,7 @@
     "nombre": "Bermuda de dril",
     "categoria": "hombre",
     "precio": 89000,
-    "imagen": "/img/bermuda.svg",
+    "imagen": "/img/bermuda.jpg",
     "tallas": [
       "28",
       "30",
@@ -49,7 +49,7 @@
     "nombre": "Pantalón de lino",
     "categoria": "hombre",
     "precio": 135000,
-    "imagen": "/img/pantalon-lino.svg",
+    "imagen": "/img/pantalon_lino.jpg",
     "tallas": [
       "28",
       "30",
@@ -64,7 +64,7 @@
     "nombre": "Vestido floral",
     "categoria": "mujer",
     "precio": 149000,
-    "imagen": "/img/vestido-floral.svg",
+    "imagen": "/img/portada.jpg",
     "tallas": [
       "XS",
       "S",
@@ -79,7 +79,7 @@
     "nombre": "Blusa campesina",
     "categoria": "mujer",
     "precio": 79000,
-    "imagen": "/img/blusa-campesina.svg",
+    "imagen": "/img/campecina.jpg",
     "tallas": [
       "XS",
       "S",
@@ -94,7 +94,7 @@
     "nombre": "Falda midi plisada",
     "categoria": "mujer",
     "precio": 99000,
-    "imagen": "/img/falda-midi.svg",
+    "imagen": "/img/falda.jpg",
     "tallas": [
       "XS",
       "S",
@@ -109,7 +109,7 @@
     "nombre": "Short de lino",
     "categoria": "mujer",
     "precio": 72000,
-    "imagen": "/img/short-lino.svg",
+    "imagen": "/img/short.jpg",
     "tallas": [
       "XS",
       "S",
@@ -124,7 +124,7 @@
     "nombre": "Sombrero vueltiao",
     "categoria": "accesorios",
     "precio": 180000,
-    "imagen": "/img/sombrero-vueltiao.svg",
+    "imagen": "/img/sombrero.jpg",
     "tallas": [
       "Única"
     ],
@@ -136,7 +136,7 @@
     "nombre": "Mochila wayuu",
     "categoria": "accesorios",
     "precio": 210000,
-    "imagen": "/img/mochila-wayuu.svg",
+    "imagen": "/img/mochila.jpg",
     "tallas": [
       "Única"
     ],
@@ -148,7 +148,7 @@
     "nombre": "Gafas de sol",
     "categoria": "accesorios",
     "precio": 65000,
-    "imagen": "/img/gafas-sol.svg",
+    "imagen": "/img/gafas.jpg",
     "tallas": [
       "Única"
     ],
@@ -160,7 +160,7 @@
     "nombre": "Sandalias de cuero",
     "categoria": "accesorios",
     "precio": 115000,
-    "imagen": "/img/sandalias-cuero.svg",
+    "imagen": "/img/san_cuero.jpg",
     "tallas": [
       "36",
       "37",
