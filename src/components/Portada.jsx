@@ -22,7 +22,7 @@ function Portada() {
           </a>
         </div>
         <img
-          src="/img/portada.svg"
+          src="/img/principal.jpg"
           alt="Prendas de la colección Caribe"
           className="mx-auto w-full max-w-sm"
         />
